@@ -20,7 +20,7 @@ import  streamlit as st
 
 import io
 
-data = pd.read_csv(io.BytesIO(files['day.csv']))
+data = pd.read_csv('day.csv')
 data1 = data
 data2 = data1
 data3 = data2
