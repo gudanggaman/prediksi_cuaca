@@ -13,6 +13,7 @@ STEP BY STEP :
 """
 
 import pandas as pd
+import  streamlit as st
 from google.colab import files
 
 files = files.upload()
